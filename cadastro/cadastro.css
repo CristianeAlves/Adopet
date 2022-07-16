@@ -1,0 +1,100 @@
+.fundo-branco-com-patas {
+    background-color: var(--branco);
+    background-image: url("../assets/imagens/Patas.svg"), url("../assets/imagens/Forma1.svg"), 
+    url("../assets/imagens/Forma3.svg");
+    background-position: right top, left top, left top 23em;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;    
+}
+.navegacao_cadastro {
+    margin: 3em;
+}
+
+#imagemCasa{    
+    margin-right: 3.6em;
+}
+
+/*--------------------------------------------------------*/
+.principal__cadastro {
+    text-align: center;
+    width: 86%; 
+    margin: 2.5em auto 0; 
+    flex-grow: 1;  
+}
+
+.principal__cadastro-logo {
+    display: block;
+    margin: 0 auto 1.5em;
+}
+
+.principal__cadastro-caixa-texto {
+    margin-bottom: 1.5em;
+}
+
+.principal__cadastro-texto {
+    font-style: normal;
+    line-height: 21px;    
+    text-align: center;
+    color: var(--azul);    
+    padding: 0 0.3em;
+    margin-bottom: 0.5em;
+}
+
+.formulario__cadastro {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+}
+
+.formulario__cadastro-label {
+    margin-bottom: 0.25em;
+    color: var(--cinza);
+    font-style: normal;
+    line-height: 24px;
+}
+
+.formulario__cadastro-input {
+    margin-bottom: 1.25em;
+    background-color: var(--cinza-claro-fundos);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    width: 100%;
+    padding: 1em 0;
+    border: 1px solid var(--cinza-claro-fundos);
+}
+.formulario__cadastro-input-olho::placeholder {
+    background-image: url("../assets/imagens/Olho.svg");
+    background-repeat: no-repeat;
+    background-position: right 0.75em center;
+}
+
+.formulario__cadastro-input::placeholder {
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--cinza-claro);
+    text-align: center;    
+}
+
+.botao_cadastro-link{
+    background-color: var(--coral);
+    border-radius: 6px;
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 0.5em 2em;
+}
+
+/*--------------------------------------------------------*/
+.rodape {
+    background-color: var(--verde);               
+}
+
+.rodape__texto {
+    text-align: center;
+    padding: 2.5em 3.3em;
+    color: var(--branco);    
+}

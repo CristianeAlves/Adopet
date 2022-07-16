@@ -1,0 +1,78 @@
+.fundo-azul {
+    background-color: var(--azul);
+    background-image: url("../assets/imagens/Forma1.svg"), 
+    url("../assets/imagens/Forma2.svg"), 
+    url("../assets/imagens/Ilustração1.svg");
+    background-position: left top, right top 12em, bottom 4.9em left 2.5em;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.navegacao {
+    margin: 3em;
+}
+
+#imagemCasa{    
+    margin-right: 3.6em;
+}
+
+/*--------------------------------------------------------*/
+.principal {
+    text-align: center;
+    width: 66%; 
+    margin: 2.5em auto 0; 
+    flex-grow: 1;  
+}
+
+.principal__logo {
+    display: block;
+    margin: auto;
+}
+
+.principal__titulo {
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+    font-size: 26px;
+    font-style: normal;
+    line-height: 48px;
+    color: var(--branco);
+    text-align: center;
+    margin: 1em 0 0.5em;
+}
+
+.principal__texto{
+    font-style: normal;
+    line-height: 24px;    
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 1.5em;
+}
+
+.principal_link {
+    display: block;
+    background-color: var(--coral);
+    border-radius: 6px;
+    padding: 0.5em;
+    color: var(--branco);
+    text-decoration: none;
+    width: 11.25em;
+    margin: 0 auto 1em;        
+}
+
+.ilustracao {
+    margin: auto 0;
+    display: block;    
+}
+
+/*--------------------------------------------------------*/
+.rodape {
+    background-color: var(--verde);               
+}
+
+.rodape__texto {
+    text-align: center;
+    padding: 2.5em 3.3em;
+    color: var(--branco);    
+}
+

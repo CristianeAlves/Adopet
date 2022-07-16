@@ -1,0 +1,28 @@
+@import url("index/index.css");
+@import url("cadastro/cadastro.css");
+@import url("login/login.css");
+@import url("home/home.css");
+
+:root{
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --coral: #FC7071;
+    --creme: #FCF0E3;
+    --cinza: #737380;
+    --cinza-claro: #BCBCBC;
+    --cinza-claro-fundos: #F7F7F7;
+    --branco: #FFFFFF;
+    --cor-de-fundo: #E5E5E5;
+
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'IBM Plex Sans', sans-serif;
+}
+
+body{    
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    min-height: 100vh;
+}
+
+

@@ -1,0 +1,100 @@
+.fundo-home {
+    background-color: var(--branco);
+    background-image: url("../assets/imagens/Forma1.svg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;    
+}
+
+.navegacao__home {
+    margin: 3em;
+}
+
+#imagemCasa{    
+    margin-right: 3.6em;
+}
+#imagem-usuario {
+    margin-left: 8.3em;
+}
+
+.principal__home {
+    text-align: center;
+    width: 100%; 
+    margin: 0.5em auto 0; 
+    flex-grow: 1;  
+}
+
+.principal__home-caixa-texto {
+    padding: 0 5em;
+    margin-bottom: 1.5em;
+}
+
+.principal__home-texto{
+    font-style: normal;
+    line-height: 20px;    
+    text-align: center;
+    color: var(--azul);
+    margin-bottom: 1em;
+}
+
+/*--------------------------------------------------------*/
+
+.card__home {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: var(--cinza-claro-fundos);
+    margin: 1em 0;    
+}
+
+.card__home-nome-animal {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--azul);
+    margin-bottom: 0.5em;
+}
+
+.card__home-descricao-animal {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cinza);
+}
+
+.card__home-dados-animal {
+    text-align: start;
+}
+
+.card__home-cidade-animal {
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--cinza);
+    margin-top: 1.8em;
+}
+
+.card__home-mensagem{
+    margin-top: 0.4em;
+    display: flex;
+}
+
+.card__home-mensagem-responsavel {
+    font-style: normal;
+    font-size: 10px;
+    line-height: 16px;
+    color: var(--cinza);
+    margin-left: 0.5em;
+}
+
+/*--------------------------------------------------------*/
+.rodape {
+    background-color: var(--verde);               
+}
+
+.rodape__texto {
+    text-align: center;
+    padding: 2.5em 3.3em;
+    color: var(--branco);    
+}
